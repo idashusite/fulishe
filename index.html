@@ -125,7 +125,7 @@ h1{
 .card{
   position:relative;
   display:flex;align-items:center;gap:12px;
-  min-height:84px;
+  height:84px;box-sizing:border-box;
   padding:12px;
   overflow:hidden;
   border:1px solid rgba(255,255,255,.07);
@@ -192,6 +192,10 @@ h1{
   border-color:rgba(217,163,185,.28);
   background:linear-gradient(145deg,rgba(190,110,140,.14),rgba(100,55,85,.14));
 }
+.card--dual:hover{transform:none}
+.card--dual .tag{right:auto;left:0;border-radius:16px 0 12px 0;padding:2px 12px 3px 10px}
+.go-group{flex:0 0 auto;display:flex;flex-direction:column;gap:6px;position:relative;z-index:1;text-align:center}
+.go-group .go{text-decoration:none;padding:4px 14px;font-size:12px;line-height:18px}
 .card--hot .card-title{color:#f6e6ed}
 .tag{
   position:absolute;top:0;right:0;
@@ -246,34 +250,6 @@ h1{
     <h2 id="rec-title">超级推荐</h2>
     <ul class="grid">
       <li>
-        <a class="card card--hot" href="https://www.idashu.sbs" target="_blank" rel="noopener noreferrer">
-          <span class="tag">推荐</span>
-          <span class="ico ico--txt" aria-hidden="true">成</span>
-          <span class="card-body">
-            <span class="card-title">成人人资源管理专家1</span>
-            <span class="card-desc">全网最好的成人网站资源专家</span>
-          </span>
-          <span class="go">进入</span>
-        </a>
-      </li>
-      <li>
-        <a class="card card--hot" href="https://www.idashu.site" target="_blank" rel="noopener noreferrer">
-          <span class="tag">推荐</span>
-          <span class="ico ico--txt ico--b" aria-hidden="true">成</span>
-          <span class="card-body">
-            <span class="card-title">成人人资源管理专家2</span>
-            <span class="card-desc">全网最好的成人网站资源专家</span>
-          </span>
-          <span class="go">进入</span>
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  <section class="fuli" aria-labelledby="hot-title">
-    <h2 id="hot-title">热门福利APP</h2>
-    <ul class="grid">
-      <li>
         <a class="card" href="https://www.7fkdo.com?id=395348406" target="_blank" rel="noopener noreferrer">
           <span class="ico ico--txt" aria-hidden="true">含</span>
           <span class="card-body">
@@ -293,6 +269,62 @@ h1{
           <span class="go">进入</span>
         </a>
       </li>
+      <li>
+        <div class="card card--hot card--dual">
+          <span class="tag">推荐</span>
+          <span class="ico ico--txt" aria-hidden="true">成</span>
+          <span class="card-body">
+            <span class="card-title">成人人资源管理专家</span>
+            <span class="card-desc">全网最好的成人网站资源专家</span>
+          </span>
+          <span class="go-group">
+            <a class="go" href="https://www.idashu.sbs" target="_blank" rel="noopener noreferrer">线路1</a>
+            <a class="go" href="https://www.idashu.site" target="_blank" rel="noopener noreferrer">线路2</a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="fuli" aria-labelledby="hot-title">
+    <h2 id="hot-title">AI成人短剧</h2>
+    <ul class="grid">
+      <li>
+        <a class="card" href="https://55bccf.xi06v19m.cc/chan/jgdj0166/ajgYd" target="_blank" rel="noopener noreferrer">
+          <img class="ico" src="img/02ea255f3e19c4e6dddcc4ddf0b30e23.png" width="60" height="60" alt="TikTok成人版" loading="lazy" decoding="async">
+          <span class="card-body">
+            <span class="card-title">禁果短剧</span>
+            <span class="card-desc">记录淫乱时刻，海量成人短剧，AI漫剧在线观看</span>
+          </span>
+          <span class="go">进入</span>
+        </a>
+      </li>
+      <li>
+        <a class="card" href="https://a6555b.hr95e08v.cc/chan/ak0432/azZwW" target="_blank" rel="noopener noreferrer">
+          <img class="ico" src="img/83111abac57c97701ebf450150820030.png" width="60" height="60" alt="TikTok成人版" loading="lazy" decoding="async">
+          <span class="card-body">
+            <span class="card-title">黄果短剧</span>
+            <span class="card-desc">用AI重塑AV的无限可能</span>
+          </span>
+          <span class="go">进入</span>
+        </a>
+      </li>
+      <li>
+        <a class="card" href="https://bcc7c.ov39i42s.cc/chan/ak0399/apRgn" target="_blank" rel="noopener noreferrer">
+          <img class="ico" src="img/d7b81e9f99979664c403068af7f97399.png" width="60" height="60" alt="TikTok成人版" loading="lazy" decoding="async">
+          <span class="card-body">
+            <span class="card-title">黄果短剧</span>
+            <span class="card-desc">用AI塑造你的故事，解锁所有禁忌幻想，深夜欲望一触即燃！</span>
+          </span>
+          <span class="go">进入</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="fuli" aria-labelledby="hot-title">
+    <h2 id="hot-title">热门福利APP</h2>
+    <ul class="grid">
       <li>
         <a class="card" href="https://19bff4.gt64j15s.com/chan/GS2222/h6NcH" target="_blank" rel="noopener noreferrer">
           <img class="ico" src="img/2024020612242674010.jpg" width="60" height="60" alt="TikTok成人版" loading="lazy" decoding="async">
